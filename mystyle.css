@@ -1,0 +1,76 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.container{
+	height: 100vh;
+	background-color: #424242;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.social {
+	color: #fff;
+	list-style: none;
+	padding: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	width: 650px;
+}
+.social__item {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	font-size: 30px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+.facebook:hover {
+	border-color: #6476E6;
+	box-shadow: 0px 0px 30px #6476E6;
+	color: #6476E6;
+}
+.whatsapp:hover {
+	border-color: #4dc247;
+	box-shadow: 0px 0px 30px #4dc247;
+	color: #4dc247;
+}
+.twitter:hover {
+	border-color: #00aced;
+	box-shadow: 0px 0px 30px #00aced;
+	color: #00aced;
+}
+.instagram:hover {
+	border-color: #E0529F;
+	box-shadow: 0px 0px 30px #E0529F;
+	color: #E0529F;
+}
+.google:hover {
+	border-color: #E4C558;
+	box-shadow: 0px 0px 30px #E4C558;
+	color: #E4C558
+}
